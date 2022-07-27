@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Edu+TAS+Beginner&family=Hachi+Maru+Pop&family=Josefin+Sans&family=Libre+Baskerville&family=Marck+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Edu+TAS+Beginner&family=Hachi+Maru+Pop&family=Josefin+Sans&family=Libre+Baskerville&family=Marck+Script&family=Roboto&family=Rubik+Wet+Paint&family=Stalinist+One&display=swap');
+.container {
+    max-width: 100%;
+    padding: 50px;
+}
+h2 {
+    text-align:start;
+}
+h1 {
+    margin: 0;
+    padding: 10px;
+    padding-right: 40%;
+    text-align: center;
+}
+.forself {
+    text-align: center;
+}
+.socnet {
+    text-align: center;
+}
+/* Photo */
+.photo {
+    width: 150px;
+    margin-left: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(205, 230, 230);
+}
+/* Resume */
+.resume {
+    font-size: 25px;
+    margin-left: 30%;
+}
+.resume h1 {
+    font-family: 'Stalinist One', sans-serif;
+}
+
+/* Info */
+body {
+    background: rgb(198, 212, 236);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.info {
+    font-family: 'Hachi Maru Pop', sans-serif;
+    font-size: 20px; 
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom:40px ;
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 10px;
+    display: flex;
+
+}
+.info p {
+    width: auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+@media (max-width: 680px) {
+    .info {
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .info p {
+        width: auto;
+        border: 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+    .info {
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .info p {
+        width: auto;
+        border: 0px;
+        text-align: center;
+    }
+}
+
+.info em {
+    color: crimson;
+}
+
+
+/* Contacts */
+.contacts {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    background: rgb(253, 253, 253);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left:5px ;
+}
+.contacts a {
+    border: 2px solid black;
+    border-radius: 7px;
+    background: rgb(255, 253, 253);
+    padding: 0 10px;
+    margin: 0 30px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+@media (max-width:1488px) {
+    .contacts a {
+        margin: auto;
+    }
+}
+@media (max-width:1039px) {
+    .contacts a {
+        display: block;
+    }
+}
+.contacts a:hover {
+    background-color: rgb(185, 41, 176);
+    color: #fff;
+    opacity: 0.8;
+}
+.contacts a:active {
+    color: green;
+}
+@media (max-width:680px) {
+    .contacts a {
+        display: block;
+        margin: 2px;
+    }
+}
+@media (max-width:800px) {
+    .contacts a {
+        display: block;
+        margin: 2px;
+    }
+}
+/* Card */
+.card {
+    margin-left: 25%;
+    font-weight: 600;
+    font-family: 'Comfortaa';
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 50%;
+}
+
+.card table {
+    margin: 10px;
+}
+
+.card th {
+    border: solid 4px black;
+    border-radius: 10px;
+    background: rgb(179, 193, 214);
+}
+@media (max-width:964px) {
+    .card th {
+        padding: 0;
+        padding-left: 10px;
+        display: block;
+    }
+}
+.card td {
+    border: solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left: 5px;
+    padding: 10px;
+    color: rgb(2, 76, 65);
+}
+@media (max-width:1121px) {
+    .card td {
+        padding: 0;
+        padding-left: 5px ;
+        display: block;
+    }
+}
+.card td:nth-child(3) {
+    background-color: rgb(146, 211, 229);
+    color: rgb(0, 0, 0);
+}
+.card h2 {
+    padding-left: 30%;
+}
+@media (max-width:578px) {
+    .card h2 {
+        padding: 0;
+        padding-left: 10px;
+    }
+}
+
+/* Jobs */
+.jobs {
+    margin-left: 25%;
+    font-weight: 600;
+    font-family: 'Comfortaa';
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 50%;
+}
+.jobs a {
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px;
+}
+.jobs h2 {
+    text-align: center;
+}
+.jobs ul {
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+}
+@media (max-width:1209px) {
+    .jobs ul {
+        display: block;
+    }
+}
+.jobs li {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    padding: 10px 30px ;
+    
+}
+.jobs li:hover {
+    background-color: rgb(162, 192, 248);
+    border-radius: 20px;
+    opacity: .6;
+}
+
+
+/* Footer */
+.footer {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+    background: #fff;
+}
+.footer h2 {
+    padding-left: 30%;
+}
+@media (max-width:683) {
+    .footer h2 {
+        padding: 0;
+    }
+}
+.footer textarea {
+    border-radius: 10px;
+}
+.footer input {
+    border-radius: 10px;
+    padding: 10px;
+
+}
+@media (max-width:678) {
+    .footer input {
+        padding: 0;
+    }
+}
+/* forms */
+.forms {
+    padding-left: 30%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: rgb(129, 151, 179);
+}
+@media (max-width:678) {
+    .footer {
+        display: block;
+    }
+}
+/* BTN */
+
+.btn {
+    background: rgb(0, 0, 0);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+    background-color: rgb(185, 41, 176);
+}
+.btn:active {
+    color: red;
+}
